@@ -1,4 +1,3 @@
 ## Execution:
-1) Add the input file to the resources folder
-2) Execute the `RenovationApp` by passing the input file name with extension (relative path) as an argument
-   * For example: 'rooms.txt'
+1) Run `mvn clean install` to build the project 
+2) Execute the built jar with the `java -jar .\renovation-1.0-SNAPSHOT.jar {{absolute-path-to-input}}`
